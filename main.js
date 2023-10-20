@@ -8,34 +8,60 @@ function myrepo (){
 return x
 }
 
-
-
 // Problem: Create a function that takes two arguments and checks if they are equal. Return true if they are and false if they are not.
 function car (a,b){
     if (a===b) 
     return true
 else if (a!==b)
 return false
+}
+//////////////////////////
+// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting errors.
+function change(newValue){
+    var x="first value"
+    x=newValue
+    return x
+}
+// Problem: Create a function that defines a variable using var within its scope. Try to access the variable outside of the function and explain the result.
+var a="hello"
 
+function help(x){
+a=x
+return a
+}
+
+// Problem: Write a function that takes a variable as an argument and returns its data type
+function type(y){
+    var z=y 
+        return typeof z
 }
 
 
-    
-
-
-
-
-
-
-// Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting errors.
-
-// Problem: Create a function that defines a variable using var within its scope. Try to access the variable outside of the function and explain the result.
-
-// Problem: Write a function that takes a variable as an argument and returns its data type.
 
 // Conditional Statements:
-
 // Problem: Create a function that takes an age as an argument and returns a message based on whether the person is a child, a teenager, an adult, or a senior citizen.
+function identifyAperson(age){
+    if (age < 10){
+
+    
+    return ("child")}
+    else if (age >10 && age<20){
+        return "teenager"
+    }
+
+    else if (age >20 && age <30){
+    return "an adult"}
+    else (age >30){
+        return "senior citizen"
+    }
+}
+
+
+
+
+
+
+
 
 // Problem: Write a function that checks if a given number is even or odd and returns an appropriate message.
 
