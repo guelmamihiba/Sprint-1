@@ -2,7 +2,30 @@
 
 // Problem: Write a JavaScript function that declares a variable using var and returns its value.
 
+
+function myrepo (){
+    var x=165
+return x
+}
+
+
+
 // Problem: Create a function that takes two arguments and checks if they are equal. Return true if they are and false if they are not.
+function car (a,b){
+    if (a===b) 
+    return true
+else if (a!==b)
+return false
+
+}
+
+
+    
+
+
+
+
+
 
 // Problem: Implement a function that declares a "constant" variable using var (even though var variables are not constant) and attempts to reassign it. Handle any resulting errors.
 
